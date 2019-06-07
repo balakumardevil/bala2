@@ -1,6 +1,6 @@
 n=int(input())
 m=int(input())
-for n in range(n,m):
+for n in range(n,m+1):
     t=n
     c=0 
     while(n!=0):
@@ -9,6 +9,6 @@ for n in range(n,m):
         n=n//10
         c=a+c
     if(c==t):
-        print(c)
+        print(c,end=' ')
         
         
