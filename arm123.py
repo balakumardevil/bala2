@@ -1,6 +1,6 @@
 n=int(input())
 m=int(input())
-for n in range(n,m+1):
+for n in range(n,m):
     t=n
     c=0 
     while(n!=0):
